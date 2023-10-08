@@ -1,0 +1,225 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  border-sizing: border-box;
+  background: #F8F7F7;
+  color: #BC4025;
+}
+
+a {
+  color: #BC4025;
+}
+
+main {
+  position: relative;
+  padding: 0.75rem;
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+#index {
+  width: 100%;
+}
+#side {
+  position: sticky;
+  top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  height: 100%;
+  width: 240px;
+}
+@media only screen and (max-width: 600px) {
+  #side {
+    width: 100%;
+    position: relative;
+  }
+}
+#side .wrapper {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -1.5px;
+  line-height: 90%;
+}
+h1 sup {
+  font-size: 0.6rem;
+  margin-left: -0.25rem;
+  letter-spacing: 0.25px;
+}
+
+p {
+  margin: 0;
+  margin-top: 1rem;
+  max-width: 60vw;
+  font-size: 0.7rem;
+  line-height: 140%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#actions a:hover {
+  border: 1px solid #F8F7F7;
+  background: #F8F7F7;
+  cursor: pointer;
+  color: #BC4025;
+}
+
+hr {
+  border: 0.5px solid #F8F7F7;
+  margin: 0.5em 0;
+}
+
+h3 {
+  display: inline;
+  font-weight: normal;
+}
+
+#search {
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+  padding-top: 0;
+  color: #BC4025;
+}
+#search input {
+  border: 0;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+#search input::placeholder {
+  color: #BC4025;
+}
+
+#filter {
+  padding: 0.5em 0;
+  margin: -0.5rem;
+}
+
+#filter a {
+  display: inline-block;
+  text-decoration: none;
+  color: #BC4025;
+  border-radius: 12px;
+  padding: 0.25em 0.5em;
+  font-size: 12px;
+  margin: 0.1rem;
+  border: 1px solid #F8F7F7;
+}
+
+#filter a:hover {
+  border: 1px solid #BC4025;
+  background: #F8F7F7;
+  cursor: pointer;
+  color: #BC4025;
+}
+
+#index .r {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+#index ._link {
+  display: flex;
+  width: 100%;
+}
+
+#index .r {
+  padding: 0.5em 0.25em;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#index .r a {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #BC4025;
+}
+
+#index .r:hover {
+  text-shadow: 0 0 16px rgba(188, 64, 37, 0.58);
+}
+#index .r:hover * {
+  color: #BC4025;
+}
+#index .r:hover a {
+  color: #BC4025;
+}
+
+#index .r:hover > ._mirror a {
+  color: #BC4025;
+}
+
+#index .r * {
+  margin-right: 0.5rem;
+}
+
+.r ._title {
+  width: 90%;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.r ._title h2 {
+  margin: 0.15rem 0;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.r ._type {
+  display: inline;
+  font-size: 10px;
+  width: 10%;
+}
+
+.r ._desc {
+  width: 100%;
+  font-size: 12px;
+  line-height: 150%;
+}
+.r ._desc p {
+  padding: 0;
+  margin: 0;
+  margin-top: -0.25rem;
+}
+
+._mirror {
+  display: flex;
+}
+
+#index .r ._mirror a {
+  background: #BC4025;
+  text-decoration: none;
+  padding: 0.25em;
+  margin: 0.1rem;
+  font-size: 11px;
+  text-transform: uppercase;
+  border: 1px solid #BC4025;
+  border-radius: 8px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+}
+
+#index .r ._mirror a:hover {
+  background: #F8F7F7;
+}
+
+/*# sourceMappingURL=style.css.map */

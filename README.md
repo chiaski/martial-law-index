@@ -1,2 +1,2 @@
-# martial-law-index
-martiallawindex.com
+# martiallawinfo
+Collecting Martial Law materials.
