@@ -88,8 +88,9 @@ a{
 #actions a{ 
 display: inline-block; 
   margin-right: .5rem;
-    font-size: .8rem;
+    font-size: .7rem;
 }
+
 
 #actions a:hover{
   cursor: pointer;
@@ -119,8 +120,9 @@ h3{
     max-width: 180px;
     border: 0;
     border-bottom: 1px solid $r;
-    padding: .25em 0;
+    padding: .5rem 0;
   color: $r;
+    font-size: .7rem;
   }
   
   input::placeholder{
@@ -140,7 +142,7 @@ h3{
   color: $r;
   border-radius: 12px;
   padding: .25em .5em;
-  font-size: 12px;
+  font-size: .7rem;
   margin: .1rem;
   border:1px solid $w;
 }
@@ -186,14 +188,9 @@ padding: .75rem 0;
 }
 
 #index .r:hover{
-  text-shadow: 0 0 16px rgba(188, 64, 37, 0.58);
   
-  *{
-    color: $r;
-  }
-  
-  a{
-    color: $r;
+  ._title h2{
+    border: 1px solid $r;
   }
   
 }
@@ -212,9 +209,12 @@ padding: .75rem 0;
 }
 
 .r ._title h2{
-  margin: .15rem 0;
   font-weight: normal;
   font-size: 1.1rem;
+  border: 1px solid $w;
+  border-radius: 12px;
+  margin: 0rem -.3rem;
+  padding: .25rem;
 }
 
 .r ._type{
