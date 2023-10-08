@@ -188,13 +188,13 @@ h3 {
 
 .r ._type {
   display: inline;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   width: 10%;
 }
 
 .r ._desc {
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   line-height: 150%;
 }
 .r ._desc p {
