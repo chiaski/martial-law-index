@@ -1,15 +1,18 @@
-  function filter(what) {
-    // clear filter
-
-    if (what == "all") {
-      $("#_list .r").show();
-    } else {
-      console.log(what);
-      $("#_list .r").show();
-      $("#_list .r:not([type='" + what + "'])").hide();
-    }
-
+$("#filter").on("click", "a[filter]", function(){
+  
+  $("#filter a").removeAttr("selected");
+  let what = $(this).attr("filter");
+  $(this).attr("selected", "");  
+  
+  if (what == "all") {
+    $("#_list .r").show();
+  } else {
+    $("#_list .r").show();
+    $("#_list .r:not([type='" + what + "'])").hide();
   }
+
+  
+});
 
   // search
 

@@ -113,6 +113,7 @@ h3 {
   border: 0;
   border-bottom: 1px solid #BC4025;
   padding: 0.25em 0;
+  color: #BC4025;
 }
 #search input::placeholder {
   color: #BC4025;
@@ -134,7 +135,7 @@ h3 {
   border: 1px solid #F8F7F7;
 }
 
-#filter a:hover {
+#filter a:hover, #filter a[selected] {
   border: 1px solid #BC4025;
   background: #F8F7F7;
   cursor: pointer;
