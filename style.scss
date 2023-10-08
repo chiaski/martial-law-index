@@ -33,8 +33,11 @@ main{
 
 #index{
   width: calc(100%);
-  @media only screen and (max-width: 600px) {
+  margin: 0;
+  padding: 0;
   
+  @media only screen and (max-width: 600px) {
+  margin-top: 2rem;
 }
 }
 
@@ -111,10 +114,12 @@ h3{
   color: $r;
   
   input{
-    width: 100%;
+    background: none;
+    width: 90%;
+    max-width: 180px;
     border: 0;
-    padding: .5em;
-    border-radius: 4px;
+    border-bottom: 1px solid $r;
+    padding: .25em 0;
   }
   
   input::placeholder{
@@ -165,6 +170,10 @@ h3{
   padding: .5em .25em;
   box-sizing: border-box;
   width: 100%;
+  
+@media only screen and (max-width: 600px) {
+padding: .75rem 0;
+  }
 }
 
 #index .r a{
@@ -196,11 +205,6 @@ h3{
   margin-right: .5rem;
 }
 
-._title, ._type, ._desc{
-  
-}
-
-
 .r ._title{
   width: 90%;
   margin-bottom: .5rem;
@@ -214,23 +218,24 @@ h3{
 
 .r ._type{
   display: inline;
-  font-size: .75rem;
+  font-size: .65rem;
   width: 10%;
 }
 
 
 .r ._desc{
   width: 100%;
-  font-size: .75rem;
   line-height: 150%;
   p{
     padding: 0; margin: 0;
     margin-top: -.25rem;
+    font-size: .7rem;
   }
 }
 
 
 ._mirror{
+  margin: .25rem .1rem !important;
   display: flex;
 }
 
@@ -244,7 +249,7 @@ h3{
   border: 1px solid $r;
   border-radius: 8px;
   display: inline-block;
-  width: 8px; height: 8px;
+  width: 6px; height: 6px;
 }
 
 #index .r ._mirror a:hover{
