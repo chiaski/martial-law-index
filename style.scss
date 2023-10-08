@@ -41,7 +41,7 @@ main{
 
 #side{
   position: sticky;
-  top: .5rem;
+  top: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   height: 100%;
@@ -82,12 +82,14 @@ p{
 a{
   text-decoration: none;
 }
+#actions a{ 
+display: inline-block; 
+  margin-right: .5rem;
+    font-size: .8rem;
+}
 
 #actions a:hover{
-  border:1px solid $w;
-  background: $w;
   cursor: pointer;
-  color: $r;
 }
 
 hr{
@@ -201,7 +203,6 @@ h3{
 
 .r ._title{
   width: 90%;
-  font-size: .9rem;
   margin-bottom: .5rem;
 }
 
@@ -213,14 +214,14 @@ h3{
 
 .r ._type{
   display: inline;
-  font-size:10px;
+  font-size: .9rem;
   width: 10%;
 }
 
 
 .r ._desc{
   width: 100%;
-  font-size: 12px;
+  font-size: .9rem;
   line-height: 150%;
   p{
     padding: 0; margin: 0;
@@ -234,7 +235,7 @@ h3{
 }
 
 #index .r ._mirror a{
-  background: $r;
+  background: $w;
   text-decoration: none;
   padding: .25em;
   margin: .1rem;
@@ -247,7 +248,7 @@ h3{
 }
 
 #index .r ._mirror a:hover{
-  background: $w;
+  background: $r;
 }
 
 

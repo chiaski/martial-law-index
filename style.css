@@ -30,7 +30,7 @@ main {
 }
 #side {
   position: sticky;
-  top: 0.5rem;
+  top: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   height: 100%;
@@ -72,11 +72,14 @@ a {
   text-decoration: none;
 }
 
+#actions a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
 #actions a:hover {
-  border: 1px solid #F8F7F7;
-  background: #F8F7F7;
   cursor: pointer;
-  color: #BC4025;
 }
 
 hr {
@@ -96,6 +99,7 @@ h3 {
   color: #BC4025;
 }
 #search input {
+  width: 100%;
   border: 0;
   padding: 0.5em;
   border-radius: 4px;
@@ -173,7 +177,6 @@ h3 {
 
 .r ._title {
   width: 90%;
-  font-size: 0.9rem;
   margin-bottom: 0.5rem;
 }
 
@@ -185,13 +188,13 @@ h3 {
 
 .r ._type {
   display: inline;
-  font-size: 10px;
+  font-size: 0.9rem;
   width: 10%;
 }
 
 .r ._desc {
   width: 100%;
-  font-size: 12px;
+  font-size: 0.9rem;
   line-height: 150%;
 }
 .r ._desc p {
@@ -205,7 +208,7 @@ h3 {
 }
 
 #index .r ._mirror a {
-  background: #BC4025;
+  background: #F8F7F7;
   text-decoration: none;
   padding: 0.25em;
   margin: 0.1rem;
@@ -219,7 +222,7 @@ h3 {
 }
 
 #index .r ._mirror a:hover {
-  background: #F8F7F7;
+  background: #BC4025;
 }
 
 /*# sourceMappingURL=style.css.map */
